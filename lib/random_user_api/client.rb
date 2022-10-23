@@ -12,7 +12,7 @@ module RandomUserApi
     # end
 
     def random
-      self.class.get('/api')
+      self.class.get('/api')['results']
     end
 
   end
